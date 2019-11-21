@@ -18,4 +18,8 @@ public class App
         return message;
     }
 
+    public int testFunction(int e){
+        return 1;
+    }
+
 }

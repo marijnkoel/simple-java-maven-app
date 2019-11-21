@@ -14,9 +14,13 @@ pipeline {
                 sh 'mvn -B -DskipTests clean package'
             }
         }
-        
-        stage('SCM') {
-            git 'https://github.com/foo/bar.git'
+
+        stage("SonarQube analysis") {
+            node {
+                withSonarQubeEnv('sonarQube') {
+                    sh 'mvn clean package sonar:sonar'
+                }
+            }
         }
         
         stage('Test') {

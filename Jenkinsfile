@@ -15,13 +15,14 @@ pipeline {
             }
         }
 
-        stage("SonarQube analysis") {
-            node {
-                withSonarQubeEnv('sonarQube') {
-                    sh 'mvn clean package sonar:sonar'
-                }
+        stage("build & SonarQube analysis") {
+            agent any
+            steps {
+              withSonarQubeEnv('My SonarQube Server') {
+                sh 'mvn clean package sonar:sonar'
+              }
             }
-        }
+          }
         
         stage('Test') {
             steps {

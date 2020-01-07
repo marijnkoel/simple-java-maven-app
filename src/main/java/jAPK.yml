@@ -1,0 +1,206 @@
+# More information about these properties: https://github.com/J-Technologies/jAPK/tree/master/toelichting
+manualProperties:
+  # 2.1 Amount of interfaces and types
+  - key: "architecture.interfaces"
+    score: 0.7
+    comment: >-
+      This is a comment
+      across multiple
+      lines as an example.
+  # 2.2 Functional Complexity
+  - key: "architecture.complexity"
+    score: -1
+    comment: ""
+  # 2.3 Spacial data
+  - key: "architecture.spacialData"
+    score: -1
+    comment: ""
+  # 2.4 Historical models
+  - key: "architecture.historicalModels"
+    score: -1
+    comment: ""
+  # 2.5 Complex interfaces
+  - key: "architecture.complexInterfaces"
+    score: -1
+    comment: ""
+  # 2.6 Separate responsibilities (single responsibility)
+  - key: "architecture.singleResponsibility"
+    score: -1
+    comment: ""
+  # 2.7 Certificate handling in Java Application
+  - key: "architecture.certificateHandling"
+    score: -1
+    comment: ""
+  # 2.8 Untested hidden code
+  - key: "architecture.untestedCode"
+    score: -1
+    comment: ""
+  # 2.9 Module structure
+  - key: "architecture.moduleStructure"
+    score: -1
+    comment: ""
+  # 2.10 Modified generated code
+  - key: "architecture.generatedCode"
+    score: -1
+    comment: ""
+  # 2.11 Modified libraries
+  - key: "architecture.modifiedLibraries"
+    score: -1
+    comment: ""
+
+
+  # 3.1 Version control tools
+  - key: "documenation.versionControl"
+    score: -1
+    comment: ""
+  # 3.2 Wiki
+  - key: "documenation.wiki"
+    score: -1
+    comment: ""
+  # 3.3
+
+  # 3.4 up to date?
+  - key: "documenation.uptodate"
+    score: -1
+    comment: ""
+  # 3.5 Accessibility (no protected directories)
+  - key: "documenation.accessibility"
+    score: -1
+    comment: ""
+  # 3.6 Documentation understandable (structured, easy to read)
+  - key: "documenation.structuredDocumentation"
+    score: -1
+    comment: ""
+  # 3.7 Documentation Complete?
+  - key: "documentation.complete"
+    score: -1
+    comment: ""
+
+  # 4.1 lines of code
+  - key: "metrics.linesOfCode"
+    score: -1
+    comment: ""
+  # 4.2 amount of classes
+  - key: "metrics.classCount"
+    score: -1
+    comment: ""
+  # 4.3 methodes size
+  - key: "metrics.methodeSize"
+    score: -1
+    comment: ""
+  # 4.4 Criticals, Majors
+  - key: "metrics.criticalsMajors"
+    score: -1
+    comment: ""
+  # 4.5 TestCoverage
+  - key: "metrics.testCoverage"
+    score: -1
+    comment: ""
+
+  # 5.1 How does the code read?
+  - key: "codereview.readableCode"
+    score: -1
+    comment: ""
+  # 5.2 Package Structure
+  - key: "codereview.packageStucture"
+    score: -1
+    comment: ""
+  # 5.3 Use of date / time framework
+  - key: "codereview.timeDateFramework"
+    score: -1
+    comment: ""
+  # 5.4 No unnecessary "hatch" layers
+  - key: "codereview.unnecessaryLayers"
+    score: -1
+    comment: ""
+  # 5.5 Usage of libraries
+  - key: "codereview.libraryUsage"
+    score: -1
+    comment: ""
+  # 5.6 Unittest quality
+  - key: "codereview.unittestQuality"
+    score: -1
+    comment: ""
+  # 5.7 WEB-INF/lib check
+  - key: "codereview.webInfLibCheck"
+    score: -1
+    comment: ""
+  # 5.8 healthCheck check
+  - key: "codereview.healthCheck"
+    score: -1
+    comment: ""
+  # 5.9 Potential concurrency issues
+  - key: "codereview.concurrecyIssues"
+    score: -1
+    comment: ""
+  # 5.10 Javascript Libraries
+  - key: "codereview.javascriptLibraries"
+    score: -1
+    comment: ""
+
+  # 6.1 Code insertion
+  - key: "security.codeInsertion"
+    score: -1
+    comment: ""
+  # 6.2 User passwords not visible to administrators
+  - key: "security.passwordVisability"
+    score: -1
+    comment: ""
+  # 6.3 HTTPS Usage
+  - key: "security.httpsUsage"
+    score: -1
+    comment: ""
+  # 6.4 Input validation frontend and backend
+  - key: "security.inputValidation"
+    score: -1
+    comment: ""
+  # 6.5 Hardcoded passwords
+  - key: "security.passwordHardcoded"
+    score: -1
+    comment: ""
+  # 6.6 Vulnerable libraries
+  - key: "security.vulnerableLibraries"
+    score: -1
+    comment: ""
+
+  # 7.1 Outdated libraries
+  - key: "maintenance.outdatedLibraries"
+    score: -1
+    comment: ""
+  # 7.2 Platform
+  - key: "maintenance.platform"
+    score: -1
+    comment: ""
+  # 7.3 Java versie
+  - key: "maintenance.javaVersion"
+    score: -1
+    comment: ""
+  # 7.4 Known issues
+  - key: "maintenance.knownIssues"
+    score: -1
+    comment: ""
+  # 7.5 Workarounds and shortcuts
+  - key: "maintenance.workarroundsShortcuts"
+    score: -1
+    comment: ""
+
+  # 8.1 Automated integration and deployment
+  - key: "toolsAndInfrastructure.integrationAndDeployment"
+    score: -1
+    comment: ""
+  # 8.2 Build Failure and Skiptests
+  - key: "toolsAndInfrastructure.buildFailure"
+    score: -1
+    comment: ""
+  # 8.3 Generated files by version control tools
+  - key: "toolsAndInfrastructure.generatedFiles"
+    score: -1
+    comment: ""
+  # 8.4 Authentication or Authorization
+  - key: "toolsAndInfrastructure.authenticationAuthorization"
+    score: -1
+    comment: ""
+  # 8.5 Portability
+  - key: "toolsAndInfrastructure.Portability"
+    score: -1
+    comment: ""
